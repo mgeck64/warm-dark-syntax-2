@@ -1,18 +1,10 @@
-## Warm Dark Syntax theme
+## Warm Darker Syntax Theme
+Modification of Warm Dark Syntax. A warm dark syntax theme featuring darker
+background colors and slightly modified syntax colors. Designed to work with One
+Dark UI.
 
----
-
-![warm-dark-syntax](http://i.imgur.com/67xfzT8.png)
-
----
-
-Based on one-dark-syntax, but with warmer colors.
-Tested on [ One Dark UI theme](https://atom.io/themes/one-dark-ui).
-
----
-
+[Warm Darker Syntax screenshot](https://drive.google.com/file/d/1TVTCcG8PLBetdGfQ1xhy2g6KRwkZ-mCl/view?usp=sharing)
 ## Install
-
 ```
-apm install warm-dark-syntax
+apm install warm-darker-syntax
 ```
