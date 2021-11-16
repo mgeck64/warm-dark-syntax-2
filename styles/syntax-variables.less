@@ -9,6 +9,9 @@
 @syntax-selection-flash-color: @syntax-accent;
 @syntax-background-color:      @syntax-bg;
 
+// Editor colors
+@editor-background-color: #1e1c1b;
+
 // Guide colors
 @syntax-wrap-guide-color:          @syntax-guide;
 @syntax-indent-guide-color:        @syntax-guide;
@@ -20,9 +23,9 @@
 
 // Gutter colors
 @syntax-gutter-text-color:                @syntax-gutter;
-@syntax-gutter-text-color-selected:       @syntax-fg;
-@syntax-gutter-background-color:          @syntax-bg; // unused
-@syntax-gutter-background-color-selected: lighten(@syntax-bg, 2%);
+@syntax-gutter-text-color-selected:       lighten(@syntax-gutter, 50%);
+@syntax-gutter-background-color:          lighten(@editor-background-color, 1%);
+@syntax-gutter-background-color-selected: lighten(@syntax-gutter-background-color, 8%);
 
 // Git colors - For git diff info. i.e. in the gutter
 @syntax-color-renamed:  hsl(208, 100%, 60%);
@@ -42,7 +45,7 @@
 @syntax-color-tag:        @red;
 @syntax-color-attribute:  @orange;
 @syntax-color-import:     lighten(@cardinal, 20%);
-@syntax-color-snippet:    @lime;
+@syntax-color-snippet:    @green;
 
 
 // Custom Syntax Variables -----------------------------------
