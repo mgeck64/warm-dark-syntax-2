@@ -2,7 +2,7 @@
   "name": "warm-darker-syntax",
   "theme": "syntax",
   "version": "0.1.0",
-  "description": "Modification of Warm Dark Syntax. A warm dark syntax theme featuring darker background colors and slightly modified syntax colors. Designed to work with One Dark UI",
+  "description": "A warm dark syntax theme based on Warm Dark Syntax featuring darker background colors and modified syntax colors. Designed to work with One Dark UI",
   "keywords": [
     "dark",
     "warm",
